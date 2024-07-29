@@ -4,7 +4,7 @@ This application allows users to create, view, update, and delete tasks with a u
 The backend API is built using Express and Node.js, ensuring a robust and scalable system.
 
 Start React App Hosted on vercel URL:https://task-manager-app-chi-five.vercel.app/
-:npm run dev
+:npm start
 
 Start Backend App:
 npm start
