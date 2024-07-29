@@ -3,7 +3,11 @@ Task Manager App is a full-stack task management application built with React, T
 This application allows users to create, view, update, and delete tasks with a user-friendly interface. 
 The backend API is built using Express and Node.js, ensuring a robust and scalable system.
 
+Start React App
+npm run dev
 
+Start Backend App
+npm start
 
 Backend
 1)Make backend Apis using Node (using express and typescript framework )
