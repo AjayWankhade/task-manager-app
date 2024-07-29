@@ -20,13 +20,13 @@ const HomePage: React.FC = () => {
     },
     {
       id: "2",
-      title: "Demo Task 2",
-      description: "This is the second demo task",
+      title: "Scrum Meeting",
+      description: "This is description for tommorows meeting",
       status: "In Progress",
     },
     {
       id: "3",
-      title: "Demo Task 3",
+      title: "Database updation",
       description: "This is the third demo task",
       status: "Done",
     },
