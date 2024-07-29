@@ -10,6 +10,9 @@ Start Backend App:
 npm start
 
 Backend
+
+
+
 1)Make backend Apis using Node (using express and typescript framework )
 2)Implemented a MySQL database using the Prisma ORM tool
 3)Created CRUD for Tasks managemnet
