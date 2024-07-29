@@ -11,7 +11,28 @@ interface Task {
 }
 
 const HomePage: React.FC = () => {
-  const [tasks, setTasks] = useState<Task[]>([]);
+  const demoTasks: Task[] = [
+    {
+      id: "1",
+      title: "Demo Task 1",
+      description: "This is the first demo task",
+      status: "To-Do",
+    },
+    {
+      id: "2",
+      title: "Demo Task 2",
+      description: "This is the second demo task",
+      status: "In Progress",
+    },
+    {
+      id: "3",
+      title: "Demo Task 3",
+      description: "This is the third demo task",
+      status: "Done",
+    },
+  ];
+
+  const [tasks, setTasks] = useState<Task[]>(demoTasks);
 
   useEffect(() => {
     axios
