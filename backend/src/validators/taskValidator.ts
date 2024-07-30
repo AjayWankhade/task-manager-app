@@ -1,6 +1,7 @@
 import Joi from "joi";
 import { Request, Response, NextFunction } from "express";
 
+//Data validation library
 const taskSchema = Joi.object({
   title: Joi.string().required(),
   description: Joi.string().required(),

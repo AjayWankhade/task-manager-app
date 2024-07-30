@@ -49,7 +49,7 @@ const TaskItem: React.FC<TaskItemProps> = ({
       return;
     }
 
-    const updatedTask = { title, description, status }; // Exclude `id`
+    const updatedTask = { title, description, status };
     axios
       .put(`http://localhost:4000/api/update/${task.id}`, updatedTask)
       .then((response) => {
