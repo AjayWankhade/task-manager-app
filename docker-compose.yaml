@@ -41,3 +41,8 @@ services:
 # Volumes define
 volumes:
   mydata:
+
+####################
+# Use following command to run
+docker-compose up --build
+##########################
