@@ -9,7 +9,7 @@ Start React App Hosted on vercel URL:https://task-manager-app-chi-five.vercel.ap
 Start Backend App:
 npm start
 
-Backend
+### Backend
 
 
 
@@ -18,7 +18,7 @@ Backend
 3)Created CRUD for Tasks managemnet
 4)Validates Data before CREATE and UPDATE using JOI library
 
-Frontend
+### Frontend
 
 5)Created Screens(UI)  for Listing Tasks 
 6)Implemented Task creation form
