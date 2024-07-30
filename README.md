@@ -1,30 +1,55 @@
-# task-manager-app
-Task Manager App is a full-stack task management application built with React, TypeScript, Node.js, and Prisma. 
-This application allows users to create, view, update, and delete tasks with a user-friendly interface. 
-The backend API is built using Express and Node.js, ensuring a robust and scalable system.
+## Task-manager-app
 
-Start React App Hosted on vercel URL:https://task-manager-app-chi-five.vercel.app/
-:npm start
+Task Manager App is a full-stack task management application built with React, TypeScript, Node.js, and Prisma. This application allows users to create, view, update, and delete tasks with a user-friendly interface.
 
-Start Backend App:
-npm start
+## Deployment (Frontend)
 
-### Backend
+https://task-manager-app-chi-five.vercel.app/
 
+## Run Locally
 
+Clone the project
 
-1)Make backend Apis using Node (using express and typescript framework )
-2)Implemented a MySQL database using the Prisma ORM tool
-3)Created CRUD for Tasks managemnet
-4)Validates Data before CREATE and UPDATE using JOI library
+```bash
+  git clone https://github.com/AjayWankhade/task-manager-app
+```
 
-### Frontend
+Go to the project directory
 
-5)Created Screens(UI)  for Listing Tasks 
-6)Implemented Task creation form
-7)Uses TailWind css library for Styling 
-8)Integrates with Backend usin axios library
-9)Validates Form using YUP library and manual validations 
-10)Used Tostify library for notification popup kind of
+```bash
+  cd task-manager-app
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm start  (both for backend && frontend)
+```
+
+## Frontend
+
+1)Created Screens(UI) for Listing Tasks
+2)Implemented Task creation form
+3)Uses TailWind css library for Styling
+4)Integrates with Backend usin axios library
+5)Validates Form using YUP library and manual validations
+6)Used Tostify library for notification popup kind of
+
+## Backend
+
+1)Built RESTful APIs using Node.js with Express and TypeScript.
+2)Created endpoints for CRUD operations on tasks.
+Database Integration
+3)Implemented MySQL database with Prisma ORM for data management.
+4)CRUD Operations:
+Developed full CRUD functionality for task management.
+Data Validation
+5)Used Joi library for validating data before CREATE and UPDATE operations.
 
 
