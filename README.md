@@ -49,11 +49,15 @@ Start the server
 ## Backend
 
 1)Built RESTful APIs using Node.js with Express and TypeScript.
-2)Created endpoints for CRUD operations on tasks.
+
+2)Created endpoints for CRUD operations on tasks
+
 Database Integration
 3)Implemented MySQL database with Prisma ORM for data management.
+
 4)CRUD Operations:
 Developed full CRUD functionality for task management.
+
 Data Validation
 5)Used Joi library for validating data before CREATE and UPDATE operations.
 
