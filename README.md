@@ -35,10 +35,15 @@ Start the server
 ## Frontend
 
 1)Created Screens(UI) for Listing Tasks
+
 2)Implemented Task creation form
+
 3)Uses TailWind css library for Styling
+
 4)Integrates with Backend usin axios library
+
 5)Validates Form using YUP library and manual validations
+
 6)Used Tostify library for notification popup kind of
 
 ## Backend
